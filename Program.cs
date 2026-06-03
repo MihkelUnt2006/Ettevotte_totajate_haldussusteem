@@ -1,4 +1,5 @@
 using Ettevõtte_töötajate_haldussüsteem.TootajateHaldus;
+using System.Text;
 
 namespace Ettevõtte_töötajate_haldussüsteem
 {
@@ -6,8 +7,10 @@ namespace Ettevõtte_töötajate_haldussüsteem
     {
         static List<Tootaja> tootajad = new List<Tootaja>();
 
+
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
             // Algandmed
             LisaAlgandmed();
 
