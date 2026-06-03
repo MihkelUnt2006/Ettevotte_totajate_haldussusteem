@@ -39,6 +39,7 @@ namespace Ettevõtte_töötajate_haldussüsteem
                 }
                 Console.WriteLine("\nKlõpsake sisestamiseks Enter...");
                 Console.ReadLine();
+                 
             }
         }
 
